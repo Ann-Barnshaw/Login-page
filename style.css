@@ -1,3 +1,24 @@
 body {
     
 }
+.container {
+    width: 400px;
+    border: 2px solid lightgrey;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    height: 400px;
+}
+h2 {
+    font: bold;
+}
+.login_btn {
+width: 80px;
+}
+.wrapper {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    border: 2px solid purple;
+    margin-top: 100px;
+}
