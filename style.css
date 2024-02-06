@@ -5,23 +5,29 @@ body {
     width: 400px;
     border: 2px solid lightgrey;
     margin: 0 auto;
-    margin-top: 100px;
-    height: 400px;
+    margin-top: 80px;
+    height: 410px;
     background-color: white;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.heading {
+    border-bottom: 1px solid lightgrey;
 }
 h2 {
     font: bold;
-    padding-top: 30px;
     color: black;
-    padding-bottom: 20px;
     text-align: center;
+
 }
 .login_btn {
 width: 100px;
 }
 .wrapper {
     width: 600px;
-    height: 600px;
+    height: 580px;
     margin: 0 auto;
     border: 2px solid purple;
     margin-top: 100px;
@@ -29,22 +35,35 @@ width: 100px;
     
 }
 .login_btn {
-    width: 100px;
+    width: 330px;
+    padding: 15px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 1px solid lightslategray;
 }
 .username {
-    margin-left: 50px;
-    margin-bottom: 40px;
+    margin: 40px 50px;
+    border-bottom: 2px solid grey;
 }
 .password {
-    margin-left: 50px;
-    margin-bottom: 40px;
+    margin: 40px 50px;
+    border-bottom: 2px solid grey;
 }
 .login {
-    margin-bottom: 40px;
     text-align: center;
 }
 .sign {
-    margin-left: 50px;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
     text-align: center;
+}
+.forgot_password {
+    margin-left: 50px;
+}
+.login_a {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    
 }
