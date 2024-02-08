@@ -1,24 +1,69 @@
 body {
-    
+    color: lightslategray;
 }
 .container {
     width: 400px;
     border: 2px solid lightgrey;
     margin: 0 auto;
-    margin-top: 100px;
-    text-align: center;
-    height: 400px;
+    margin-top: 80px;
+    height: 410px;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.heading {
+    border-bottom: 1px solid lightgrey;
 }
 h2 {
     font: bold;
+    color: black;
+    text-align: center;
+
 }
 .login_btn {
-width: 80px;
+width: 100px;
 }
 .wrapper {
     width: 600px;
-    height: 600px;
+    height: 580px;
     margin: 0 auto;
     border: 2px solid purple;
     margin-top: 100px;
+    background-image: linear-gradient(#3333cc, #cc0099);
+    
+}
+.login_btn {
+    width: 330px;
+    padding: 15px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 1px solid lightslategray;
+}
+.username {
+    margin: 40px 50px;
+    border-bottom: 2px solid grey;
+}
+.password {
+    margin: 40px 50px;
+    border-bottom: 2px solid grey;
+}
+.login {
+    text-align: center;
+}
+.sign {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.forgot_password {
+    margin-left: 50px;
+}
+.login_a {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    
 }
